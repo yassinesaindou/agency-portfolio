@@ -1,3 +1,8 @@
+
+import Services from "./sections/Services";
+
 export default function Home() {
-  return <div className=" m-w-[1140px] mx-auto"></div>;
+  return <div className=" max-w-[1140px] mx-auto">
+    <Services />
+  </div>;
 }
