@@ -1,8 +1,11 @@
-
-import Contact from "./sections/Contact";
+import TechStack from "./sections/TechStack";
 
 export default function Home() {
-  return <div className=" max-w-[1140px] mx-auto">
-    <Contact />
-  </div>;
+  return (
+   
+      <div className=" max-w-[1140px] mx-auto">
+        <TechStack />
+      </div>
+   
+  );
 }
