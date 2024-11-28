@@ -1,6 +1,6 @@
-import GridPattern from "@/components/ui/grid-pattern";
+'use client'
 import IconCloud from "@/components/ui/icon-cloud";
-import { cn } from "@/lib/utils";
+
 import React from "react";
 
 export default function TechStack() {
