@@ -1,4 +1,6 @@
+import GridPattern from "@/components/ui/grid-pattern";
 import IconCloud from "@/components/ui/icon-cloud";
+import { cn } from "@/lib/utils";
 import React from "react";
 
 export default function TechStack() {
@@ -41,7 +43,7 @@ export default function TechStack() {
           We use always use the latest tools in the market
         </p>
       </div>
-      <div>
+      <div className="backdrop ">
         <IconCloud iconSlugs={logos} />
       </div>
     </section>

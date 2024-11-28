@@ -14,7 +14,7 @@ export default function Input({ label, type, placeholder, id }: Props) {
         {label}
       </Label>
       <ShadInput
-        className="fill-none py-5 mb-2 text-sm"
+        className="fill-none py-5 mb-2 text-sm rounded"
         type={type}
         id={id}
         placeholder={placeholder}

@@ -4,7 +4,7 @@ import { CodeXml, PenTool, WandSparkles } from "lucide-react";
 
 export default function Services() {
   return (
-    <section className="w-[100%]  py-[72px] lg:py-[92px] grid gap-5 ">
+    <section className="w-[100%]  py-[32px] lg:pb-[92px] grid gap-5 ">
       <div className="text-center mx-auto ">
         <h2 className="font-semibold text-gray-400 text-3xl lg:text-4xl">
           Our services

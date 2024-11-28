@@ -7,7 +7,7 @@ export default function TextArea() {
           <Label className="text-sm text-gray-300" htmlFor="message">Message</Label>
       <ShadTextArea
         placeholder="Write your message here"
-              className=" text-sm fill-none min-h-[150px] md:min-h-[250px] py-3"
+              className="rounded text-sm fill-none min-h-[150px] md:min-h-[250px] py-3"
               id="message"
           />
 
